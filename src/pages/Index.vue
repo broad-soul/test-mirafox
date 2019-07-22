@@ -8,7 +8,7 @@
             <div class="col-12 col-md-3 col-sm-6" v-for="(card, i) in cards" :key="i">
               <q-card class="card" v-ripple>
                 <div class="q-pa-lg" style="padding: 20px;">
-                  <q-img class="cursor-pointer" src="https://irtelecom.az/site/assets/files/1140/img51455_25477-1.jpg"></q-img>
+                  <q-img class="cursor-pointer" :src="card.img"></q-img>
                 </div>
                 <q-card-section>
                   <div class="desc">
@@ -100,7 +100,7 @@ export default {
           price: 500
         },
         {
-          id: 1,
+          id: 2,
           username: 'userName',
           img: 'https://irtelecom.az/site/assets/files/1140/img51455_25477-1.jpg',
           desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, dolorum hic libero minus nam obcaecati odit perspiciatis sed sequi unde? Excepturi necessitatibus, perferendis! Deserunt distinctio esse fuga minus quaerat vel perspiciatis sed sequi unde? Excepturi necessitatibus, perferendis! Deserunt distinctio esse fuga minus quaerat vel.',
@@ -111,7 +111,7 @@ export default {
           price: 500
         },
         {
-          id: 1,
+          id: 3,
           username: 'userName',
           img: 'https://irtelecom.az/site/assets/files/1140/img51455_25477-1.jpg',
           desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, dolorum hic libero minus nam obcaecati odit perspiciatis sed sequi unde? Excepturi necessitatibus, perferendis! Deserunt distinctio esse fuga minus quaerat vel perspiciatis sed sequi unde? Excepturi necessitatibus, perferendis! Deserunt distinctio esse fuga minus quaerat vel.',
@@ -122,7 +122,7 @@ export default {
           price: 500
         },
         {
-          id: 1,
+          id: 4,
           username: 'userName',
           img: 'https://irtelecom.az/site/assets/files/1140/img51455_25477-1.jpg',
           desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, dolorum hic libero minus nam obcaecati odit perspiciatis sed sequi unde? Excepturi necessitatibus, perferendis! Deserunt distinctio esse fuga minus quaerat vel perspiciatis sed sequi unde? Excepturi necessitatibus, perferendis! Deserunt distinctio esse fuga minus quaerat vel.',
@@ -133,7 +133,7 @@ export default {
           price: 500
         },
         {
-          id: 1,
+          id: 5,
           username: 'userName',
           img: 'https://irtelecom.az/site/assets/files/1140/img51455_25477-1.jpg',
           desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, dolorum hic libero minus nam obcaecati odit perspiciatis sed sequi unde? Excepturi necessitatibus, perferendis! Deserunt distinctio esse fuga minus quaerat vel perspiciatis sed sequi unde? Excepturi necessitatibus, perferendis! Deserunt distinctio esse fuga minus quaerat vel.',
